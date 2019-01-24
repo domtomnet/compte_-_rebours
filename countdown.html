@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		COMPTE A REBOURS
+	</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="countdown.css">
+</head>
+<body>
+<div id="container">
+    <div id="counter">
+        <h1>COMPTE A REBOURS</h1>
+        <div class="clock">
+            <span id="cd_h">00</span>:
+            <span id="cd_m">00</span>:
+            <span id="cd_s">00</span>:
+            <span id="cd_ms">00</span>
+        </div>
+        <br/>
+        <br/>
+        <input type="button" value="Start" id="cd_start" />
+        <input type="button" value="Pause" id="cd_pause" />
+        <input type="button" value="Stop"  id="cd_stop" />
+        <input type="button" value="Reset" id="cd_reset" />
+        <br/>
+        <br/>
+        <input type="text" value="60" id="cd_seconds" />
+        secs
+        <br/>
+        <br/>
+        <span id="cd_status">Inactif</span>
+    </div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="countdown.js"></script>
+</body>
+</html>
